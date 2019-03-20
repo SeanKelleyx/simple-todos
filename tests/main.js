@@ -11,7 +11,7 @@ describe("simple-todos", function () {
       assert.strictEqual(Meteor.isServer, false);
     });
   }
-
+    
   if (Meteor.isServer) {
     it("server is not client", function () {
       assert.strictEqual(Meteor.isClient, false);
